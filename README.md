@@ -28,10 +28,11 @@ Aplikasi ini memungkinkan pengguna untuk menambahkan produk, memilih kategori, m
 ### 1. Tampilan Awal Aplikasi
 Tampilan utama aplikasi Produk Toko.
 
-![Tampilan Awal](screenshots/01-tampilan-awal.png)
+### 1. Tampilan Awal Aplikasi
+![Tampilan Awal](Screenshot%202026-11-09%20193136.png)
 
 ### 2. Pengisian Form dan Pilihan Kategori
-Pengguna dapat mengisi data produk dan memilih kategori yang tersedia.
+![Pilihan Kategori](Screenshot%202026-11-09%20193218.png)
 
 ![Pilihan Kategori](screenshots/02-pengisian-form-dan-kategori.png)
 
@@ -42,17 +43,13 @@ Contoh pengisian data produk:
 - Kategori: Makanan
 - Harga: Rp 4.000
 
-![Form Produk Terisi](screenshots/03-form-produk-terisi.png)
+![Form Produk Terisi](Screenshot%202026-11-09%20193241.png)
 
 ### 4. Notifikasi Berhasil Disimpan
-Aplikasi menampilkan notifikasi setelah produk berhasil disimpan.
-
-![Notifikasi Berhasil](screenshots/04-notifikasi-berhasil-disimpan.png)
+![Notifikasi Berhasil](Screenshot%202026-11-09%20193254.png)
 
 ### 5. Daftar Produk
-Aplikasi menampilkan daftar produk yang telah dimasukkan, meliputi kode, nama, kategori, dan harga produk.
-
-![Daftar Produk](screenshots/05-daftar-produk.png)
+![Daftar Produk](Screenshot%202026-11-09%20193339.png)
 
 ## ⚙️ Persyaratan
 - JDK 17 atau lebih baru.
