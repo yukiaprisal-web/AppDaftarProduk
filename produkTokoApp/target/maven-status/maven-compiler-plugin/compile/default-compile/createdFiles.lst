@@ -1,0 +1,6 @@
+com\mytoko\produktokoapp\App.class
+com\mytoko\produktokoapp\PrimaryController.class
+module-info.class
+com\mytoko\produktokoapp\SecondaryController.class
+com\mytoko\produktokoapp\data\DataProduk.class
+com\mytoko\produktokoapp\model\Produk.class
