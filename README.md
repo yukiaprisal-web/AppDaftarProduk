@@ -2,78 +2,93 @@
 # 🛒 Produk Toko App
 
 ## 📌 Deskripsi
-Produk Toko App adalah aplikasi desktop sederhana berbasis Java yang digunakan untuk mengelola data produk toko. Aplikasi ini dikembangkan menggunakan JavaFX dengan Maven sebagai pengelola proyek.
+Produk Toko App merupakan aplikasi desktop sederhana untuk mengelola data produk toko. Aplikasi ini dikembangkan menggunakan Java, JavaFX, FXML, dan Maven.
 
-Aplikasi ini dibuat sebagai proyek pembelajaran pemrograman Java dan pengembangan aplikasi berbasis GUI (Graphical User Interface).
+Aplikasi ini memungkinkan pengguna untuk menambahkan produk, memilih kategori, memasukkan harga, serta melihat daftar produk yang telah disimpan.
 
 ## ✨ Fitur Aplikasi
 - Menambahkan data produk.
-- Memasukkan kode dan nama produk.
+- Mengisi kode produk dan nama produk.
 - Memilih kategori produk.
 - Memasukkan harga produk.
 - Validasi data produk.
 - Mencegah kode produk duplikat.
-- Menampilkan daftar produk.
-- Menampilkan notifikasi menggunakan JavaFX Alert.
+- Menampilkan notifikasi ketika produk berhasil disimpan.
+- Menampilkan daftar produk yang telah dimasukkan.
 
-## 🛠️ Teknologi
+## 🛠️ Teknologi yang Digunakan
 - Java
 - JavaFX
 - FXML
 - Maven
 - Apache NetBeans
 
-## 📂 Struktur Proyek
-```text
-produkTokoApp/
-├── pom.xml
-└── src/
-    └── main/
-        ├── java/
-        │   └── com/mytoko/produktokoapp/
-        │       ├── App.java
-        │       ├── PrimaryController.java
-        │       ├── SecondaryController.java
-        │       ├── data/
-        │       └── model/
-        └── resources/
-            └── com/mytoko/produktokoapp/
-                ├── primary.fxml
-                └── secondary.fxml
-```
+## 📷 Bukti Hasil Aplikasi
+
+### 1. Tampilan Awal Aplikasi
+Tampilan utama aplikasi Produk Toko.
+
+![Tampilan Awal](screenshots/01-tampilan-awal.png)
+
+### 2. Pengisian Form dan Pilihan Kategori
+Pengguna dapat mengisi data produk dan memilih kategori yang tersedia.
+
+![Pilihan Kategori](screenshots/02-pengisian-form-dan-kategori.png)
+
+### 3. Form Produk Terisi
+Contoh pengisian data produk:
+- Kode Produk: CA4D
+- Nama Produk: Permen
+- Kategori: Makanan
+- Harga: Rp 4.000
+
+![Form Produk Terisi](screenshots/03-form-produk-terisi.png)
+
+### 4. Notifikasi Berhasil Disimpan
+Aplikasi menampilkan notifikasi setelah produk berhasil disimpan.
+
+![Notifikasi Berhasil](screenshots/04-notifikasi-berhasil-disimpan.png)
+
+### 5. Daftar Produk
+Aplikasi menampilkan daftar produk yang telah dimasukkan, meliputi kode, nama, kategori, dan harga produk.
+
+![Daftar Produk](screenshots/05-daftar-produk.png)
 
 ## ⚙️ Persyaratan
 - JDK 17 atau lebih baru.
 - Apache NetBeans.
 - Maven.
 
-## 🚀 Cara Menjalankan
+## 🚀 Cara Menjalankan Aplikasi
 
 1. Clone repository:
+
 ```bash
 git clone URL_REPOSITORY_KAMU
 ```
 
 2. Masuk ke folder proyek:
+
 ```bash
 cd produkTokoApp
 ```
 
 3. Jalankan aplikasi:
+
 ```bash
 mvn clean javafx:run
 ```
 
 Atau buka proyek melalui Apache NetBeans dan klik **Run Project**.
 
-## 📝 Cara Penggunaan
-1. Buka aplikasi Produk Toko App.
+## 📝 Cara Menggunakan
+1. Jalankan aplikasi Produk Toko.
 2. Masukkan kode produk.
 3. Masukkan nama produk.
 4. Pilih kategori produk.
 5. Masukkan harga produk.
-6. Klik tombol Simpan Produk.
-7. Klik Lihat Daftar Produk untuk melihat data produk.
+6. Klik tombol **Simpan Produk**.
+7. Klik tombol **Lihat daftar Produk** untuk melihat data produk.
 
 ## 📌 Catatan
 Data produk pada versi ini disimpan sementara selama aplikasi berjalan dan belum menggunakan database permanen.
